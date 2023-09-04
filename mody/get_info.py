@@ -6,12 +6,12 @@ from pyrogram import Client
 async def getBot_token():
     try:
         from info import token
-        bot = Client('MainBot', 27786450, '1fb7b1af2837205d7ce8d77cefc0acbd',
+        bot = Client('MainBot', 25230422, 'ade18a444a3ca95930a9e5a6a6d8ecb5',
                      no_updates=True, in_memory=True, bot_token=token)
         await bot.start()
     except:
         token = input('token:\n')
-        bot = Client('MainBot', 27786450, '1fb7b1af2837205d7ce8d77cefc0acbd',
+        bot = Client('MainBot', 25230422, 'ade18a444a3ca95930a9e5a6a6d8ecb5',
                      no_updates=True, in_memory=True, bot_token=token)
         await bot.start()
         file = open('info.py', 'a')
