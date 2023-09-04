@@ -15,8 +15,8 @@ bot = AsyncTeleBot(token)
 
 userbot = Client(
     f'users/user:{argv[1][:15]}',
-    27786450,
-    '1fb7b1af2837205d7ce8d77cefc0acbd',
+    25230422,
+    'ade18a444a3ca95930a9e5a6a6d8ecb5',
     session_string=argv[1]
 )
 
